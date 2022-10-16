@@ -1,0 +1,26 @@
+POST http://localhost:8000/api/auth/new
+Content-Type: application/json 
+
+{
+    "name":"vishal",
+    "email":"vishal@mail.com",
+    "password":"vishal"
+}
+
+###
+
+POST http://localhost:8000/api/auth/login
+Content-Type: application/json 
+
+
+
+{
+    "email":"vishal@mail.com",
+    "password":"vishal"
+}
+
+###
+
+POST http://localhost:8000/api/auth/getuser
+Content-Type: application/json 
+auth-user:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjFkZDZiYzU0MjhhMTA4ZTJlN2FmYTVhIn0sImlhdCI6MTY0MTkwMDk5OH0.BSP-Agx8zeZZv9Gu4x-6xKWmIOIbHhA0qsKGlYFhuGU
